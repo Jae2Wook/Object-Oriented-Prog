@@ -1,0 +1,5 @@
+name = input("Please enter your name: ")
+age = int(input("Please enter your age: "))
+print("\n")  # or print()
+print("Hello {}, you are {} old.".format(name, age))
+print("One you next birthday, you will be {}.".format(age+1))
